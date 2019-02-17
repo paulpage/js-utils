@@ -71,7 +71,7 @@ var keyboard = {
         } else {
             return '[' + e.keyCode + ']';
         }
-    }
+    },
 
     getExactChar(e) {
         if (getChar(e) !== '') {
